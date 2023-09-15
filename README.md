@@ -35,3 +35,7 @@ $ npm run dev
 - Each order will get a unique ID that should be displayed, so the user can later look up their order based on the ID
 - Users should be able to mark their order as "priority" order even after it has been placed
 
+## Technologies
+
+Redux, ReactRouter, TailwindCSS
+
