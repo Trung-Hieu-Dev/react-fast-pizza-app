@@ -4,6 +4,7 @@ import { getMenu } from "../../services/apiRestaurant.js";
 
 function Menu() {
   const menu = useLoaderData();
+  console.log(menu);
 
   return (
     <ul>
@@ -15,7 +16,7 @@ function Menu() {
 }
 
 export async function loader() {
-  return getMenu();
+  return await getMenu();
 }
 
 export default Menu;
