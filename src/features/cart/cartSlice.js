@@ -13,7 +13,6 @@ const cartSlice = createSlice({
     },
     deleteItem(state, action) {
       // payload = pizzaId
-      // state.cart.splice(action.payload, 1);
       state.cart = state.cart.filter((item) => item.pizzaId !== action.payload);
     },
     increaseItemQuantity(state, action) {
@@ -36,6 +35,8 @@ const cartSlice = createSlice({
   },
 });
 
+export default cartSlice.reducer;
+
 export const {
   addItem,
   deleteItem,
@@ -43,4 +44,13 @@ export const {
   decreaseItemQuantity,
   clearCart,
 } = cartSlice.actions;
-export default cartSlice.reducer;
+
+export const getTotalQuantity = (state) =>
+  state.cart.cart.reduce((total, item) => {
+    return total + item.quantity;
+  }, 0);
+
+export const getTotalPrice = (state) =>
+  state.cart.cart.reduce((total, item) => {
+    return total + item.totalPrice;
+  }, 0);
