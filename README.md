@@ -1,25 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
-  uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast
-  Refresh
-
-## Installing Eslint
-
-Eslint plugin: $ npm i eslint vite-plugin-eslint eslint-config-react-app --save-dev
-
-## Installing Node Packages
-
-$ npm i
-
-## Start Project
-
-$ npm run dev
+# Fast React Pizza App
 
 ## Project Requirements From Business
 
@@ -35,7 +14,45 @@ $ npm run dev
 - Each order will get a unique ID that should be displayed, so the user can later look up their order based on the ID
 - Users should be able to mark their order as "priority" order even after it has been placed
 
-## Technologies
+## Technologies Required
 
-Redux, ReactRouter, TailwindCSS
+- Redux
+- React Router
+- TailwindCSS
 
+## How to test search order manually
+
+In the Search Order Input Field, type IDDSAT. This is the id of the order, that was stored in the database.
+
+## Knowledge Reviewing
+
+- Building app with Vite.
+- Destructure project.
+- React Router: Routes, Fetching Data with Loader, Writing Data with Actions, Handling Errors.
+- Redux Tool Kit: Managing Complex State, Predictable State Update, Debug
+- TailwindCSS: Installing, Setting Up, Styling, Grid, Flexbox, Responsive Design.
+
+## How to install app on local
+
+### React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
+  uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast
+  Refresh
+
+### Installing Eslint
+
+Eslint plugin: $ npm i eslint vite-plugin-eslint eslint-config-react-app --save-dev
+
+### Installing Node Packages
+
+$ npm i
+
+### Start Project
+
+$ npm run dev
