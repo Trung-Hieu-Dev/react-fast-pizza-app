@@ -45,9 +45,9 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast
   Refresh
 
-### Installing Eslint
+### Download Source
 
-Eslint plugin: $ npm i eslint vite-plugin-eslint eslint-config-react-app --save-dev
+You could use git clone from main or download file directly.
 
 ### Installing Node Packages
 
