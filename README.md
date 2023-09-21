@@ -47,7 +47,7 @@ Currently, two official plugins are available:
 
 ### Download Source
 
-You could use git clone or download file directly.
+You could use git clone from main or download file directly.
 
 ### Installing Node Packages
 
