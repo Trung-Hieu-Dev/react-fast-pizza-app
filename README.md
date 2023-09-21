@@ -39,3 +39,6 @@ $ npm run dev
 
 Redux, ReactRouter, TailwindCSS
 
+## Testing search order
+
+In the Search Order Input Field, type IDDSAT. This is the id of the order, that was stored in the database.
